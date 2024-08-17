@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%; /* Ensure inputs take full width of their container */
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.resume-preview {
+  margin-top: 20px;
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.entry-group {
+  margin-bottom: 20px; /* Space between each group */
+}
+
+.entry-group input,
+.entry-group textarea {
+  display: block; /* Stack inputs vertically */
+  margin-bottom: 10px; /* Space between fields */
+}
+
+.entry-group .buttons {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  gap: 10px; /* Space between buttons */
+}
+
+.entry-group button {
+  margin: 0; /* Remove default margin */
+}
+
+/* Specific style for Add and Remove buttons */
+.add-button {
+  display: block;
+  margin: 10px 0;
+}
+/* Add PDF-specific styles */
+#resume-template {
+  max-width: 800px; /* Define a max-width for better PDF layout */
+  margin: 0 auto; /* Center the content */
+  padding: 20px;
+  /* background-color: #6b2828; */
+  border: 1px solid #ddd; /* Add a border for clarity */
+  border-radius: 5px;
+}
+
+#resume-template h1,
+#resume-template h2 {
+  color: #333;
+}
+
+#resume-template p {
+  margin: 5px 0;
+}
+
+#resume-template div {
+  margin-bottom: 15px;
+}
+
